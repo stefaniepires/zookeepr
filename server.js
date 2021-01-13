@@ -19,6 +19,10 @@ app.use(express.urlencoded({ extended: true }));
 //the express.json() method takes incoming POST data in the form of JSON and parses it into the req.body JS object
 app.use(express.json());
 
+//middleware w/ express.static() method
+//instructs the server to make certain files readily available
+app.use(express.static('public'));
+
 function filterByQuery(query, animalsArray) {
   let personalityTraitsArray = [];
   // Note that we save the animalsArray as filteredResults here:
@@ -137,6 +141,20 @@ if (!validateAnimal(req.body)) {
 
   res.json(req.body);
 }
+});
+
+//index.html to be served from our Express.js server
+//GET route to  respond with an HTML page to display in the browser
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/index.html'));
+});
+
+app.get('/animals', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/animals.html'));
+});
+
+app.get('/zookeepers', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/zookeepers.html'));
 });
 
 app.listen(PORT, () => {
