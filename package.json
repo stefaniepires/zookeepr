@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/steftinsley/zookeepr#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jest": "^26.6.3"
   }
 }
