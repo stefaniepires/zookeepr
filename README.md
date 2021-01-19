@@ -33,4 +33,4 @@ https://zookeepr-app-st.herokuapp.com/
   Email: stefaniectinsley@gmail.com
   GitHub: https://github.com/steftinsley
   
-  ![Screenshot]()
+  ![Screenshot](https://github.com/steftinsley/zookeepr/blob/main/screenshot-zookeepr-app-st.herokuapp.com-2021.01.18-20_17_43.png)
