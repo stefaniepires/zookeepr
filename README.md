@@ -11,7 +11,7 @@ https://zookeepr-app-st.herokuapp.com/
   ### Table of Contents 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Tests](#tests)
+  - [Technology](#technology)
   - [Contributors](#contributors)
   - [Questions](#questions)
 
