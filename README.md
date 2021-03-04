@@ -30,7 +30,7 @@ https://zookeepr-app-st.herokuapp.com/
 
   ### Questions?
   Contact me at 
-  Email: stefaniectinsley@gmail.com
-  GitHub: https://github.com/steftinsley
+  Email: stefaniepires91@gmail.com
+  GitHub: https://github.com/stefaniepires
   
   ![Screenshot](https://github.com/steftinsley/zookeepr/blob/main/screenshot-zookeepr-app-st.herokuapp.com-2021.01.18-20_17_43.png)
